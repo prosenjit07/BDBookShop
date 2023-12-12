@@ -1,5 +1,5 @@
 /*! Responsive 2.2.7
- * 2014-2023 SpryMedia Ltd - datatables.net/license
+ * 2014-2021 SpryMedia Ltd - datatables.net/license
  */
 
 /**
@@ -9,7 +9,7 @@
  * @file        dataTables.responsive.js
  * @author      SpryMedia Ltd (www.sprymedia.co.uk)
  * @contact     www.sprymedia.co.uk/contact
- * @copyright   Copyright 2014-2023 SpryMedia Ltd.
+ * @copyright   Copyright 2014-2021 SpryMedia Ltd.
  *
  * This source file is free software, available under the following license:
  *   MIT license - http://datatables.net/license/mit
