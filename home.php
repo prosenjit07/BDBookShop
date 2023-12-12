@@ -2,7 +2,7 @@
  <header class="bg-dark py-5" id="main-header">
     <div class="container px-4 px-lg-5 my-5">
         <div class="text-center text-white">
-            <h1 class="display-4 fw-bolder">If you want to make intelligent, get books from here.</h1>
+            <h1 class="display-4 fw-bolder">"The more that you read, the more things you will know. The more that you learn, the more places you'll go." - Dr. Seuss</h1>
             <p class="lead fw-normal text-white-50 mb-0">Shop Now!</p>
         </div>
     </div>
