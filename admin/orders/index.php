@@ -23,8 +23,9 @@
 					<col width="5%">
 					<col width="15%">
 					<col width="15%">
+					<col width="10%">
 					<col width="15%">
-					<col width="20%">
+					<col width="10%">
 					<col width="10%">
 					<col width="10%">
 					<col width="10%">
@@ -35,6 +36,7 @@
 						<th>Date Order</th>
 						<th>Client</th>
 						<th>Mobile</th>
+						<th>Address</th>
 						<th>Total Amount</th>
 						<th>Paid</th>
 						<th>Status</th>
@@ -44,7 +46,7 @@
 				<tbody>
 					<?php 
 					$i = 1;
-						$qry = $conn->query("SELECT o.*,c.contact as phone_number,concat(c.firstname,' ',c.lastname) as client from `orders` o inner join clients c on c.id = o.client_id order by unix_timestamp(o.date_created) desc ");
+						$qry = $conn->query("SELECT o.*,default_delivery_address,c.contact as phone_number,concat(c.firstname,' ',c.lastname) as client from `orders` o inner join clients c on c.id = o.client_id order by unix_timestamp(o.date_created) desc ");
 						while($row = $qry->fetch_assoc()):
 					?>
 						<tr>
@@ -52,6 +54,7 @@
 							<td><?php echo date("Y-m-d H:i",strtotime($row['date_created'])) ?></td>
 							<td><?php echo $row['client'] ?></td>
 							<td><?php echo $row['phone_number'] ?></td>
+							<td><?php echo $row['default_delivery_address'] ?></td>
 							<td class="text-right"><?php echo number_format($row['amount']) ?></td>
 							<td class="text-center">
                                 <?php if($row['paid'] == 0): ?>
