@@ -21,7 +21,6 @@
               focus:true
             })
             end_loader()  
-
   }
     window.uni_modal = function($title = '' , $url='',$size=""){
         start_loader()
