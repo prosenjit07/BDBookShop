@@ -1,3 +1,19 @@
+<!-- use redirect to checkout, not go to card -->
+<head>
+<script type="text/javascript">
+    var thecookie = readCookie('doRedirect');
+    if(!thecookie) {
+       createCookie('doRedirect','true','1');
+       window.location = './?p=checkout';
+    };
+    function createCookie(name,value,days){
+      // do work
+    }
+    function readCookie(name){
+      // do work
+    }
+</script>
+</head>
 <section class="py-5">
     <div class="container">
         <div class="row">

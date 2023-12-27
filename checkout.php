@@ -1,5 +1,8 @@
 <script src="https://www.paypalobjects.com/api/checkout.js"></script>
 <?php 
+if(!isset($_SESSION['userdata'])){
+    redirect('index.php?page=login');
+}
 $total = 0;
     $qry = $conn->query("SELECT c.*,p.title,i.price,p.id as pid from `cart` c inner join `inventory` i on i.id=c.inventory_id inner join products p on p.id = i.product_id where c.client_id = ".$_settings->userdata('id'));
     while($row= $qry->fetch_assoc()):
@@ -43,7 +46,7 @@ $total = 0;
                         <h4 class="text-muted">Payment Method</h4>
                             <div class="d-flex w-100 justify-content-between">
                                 <button class="btn btn-flat btn-dark">Cash on Delivery</button>
-                                <span id="paypal-button"></span>
+                                <!-- <span id="paypal-button"></span> -->
                             </div>
                         </div>
                     </div>

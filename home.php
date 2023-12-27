@@ -1,16 +1,200 @@
  <!-- Header-->
- <header class="bg-dark py-5" id="main-header">
-    <div class="container px-4 px-lg-5 my-5">
+
+ <!-- use pic for home page -->
+ <!-- <header class="bg-dark py-5" id="main-header"> -->
+
+ <header class="bg-dark py-2">
+    <div class="container px-2 px-lg-3 my-2">
         <div class="text-center text-white">
             <!-- <h1 class="display-4 fw-bolder"></h1> -->
             <h4>BDBookShop এ স্বাগতম</h4>
-            <p class="lead fw-normal text-white-50 mb-0">Order করুন!</p><br>
-            <p>👍Cash On Delivery 🏠Free Home Delivery<br>
-               📞 কথা বলতে চাইলে কল : 017xxxxxxxx 📞</p>
+            <p class="lead fw-normal text-white-50 mb-0">☎️হটলাইন:+8801960230293</p><br>
         </div>
-    </div>
+        <div>
+</div>
+
+</div>
 </header>
+
 <!-- Section-->
+<br>
+<div class="container">
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="container2">
+        <div class="black-box">
+        <img src="images/artofcontest.jpg" class="img-fluid" alt="Book Image">
+        </div>
+    
+  <div class="green-box">
+  <img src="images/qr.png" class="zoom-in-out-box" alt="qr" />
+  <style>
+.container2 {
+  position: relative;
+}
+
+.black-box {
+  position: relative;
+}
+.green-box {
+  position: absolute;
+  bottom: 20px;
+  left: 150px;
+  /* left: 150px;
+  top: 250px; */
+}
+</style>
+  </div>
+</div>
+
+   
+<style>
+   .zoom-in-out-box {
+  margin: 24px;
+  width: 50px;
+  height: 50px;
+  background: #f50057;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1.5);
+  }
+  50% {
+    transform: scale(2.5, 3);
+  }
+  100% {
+    transform: scale(1, 1.5);
+  }
+}
+</style>
+
+      </div>
+      <div class="col-md-4">
+        <h1>📆মাত্র দুই</h1>
+        <h1>সপ্তাহে দার </h1>
+        <h1>&#160  &#160 করান</h1>
+        <h1>💪🏻স্থায়ী বড়</h1>
+        <h1>ব্যবসা📈👑</h1>
+      </div>
+
+      <div class="col-md-4">
+        <h2>📢বইয়ের প্যাকেজটিতে ফ্রি পাচ্ছেনঃ</h2>
+        <h3>📝14 দিনের চেকলিস্ট</h3>
+        <h3>🎓বিখ্যাত ১৬ টি কোর্সের </h3>
+        <h3>Free Drive Link!</h3>
+        <h3>🚀Idea Bank</h3>
+        <h3>⚡Ad Post + Video </h3>
+      </div>
+
+    </div>
+  </div>
+
+<head>
+
+  <meta charset="UTF-8">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    .custom-btn {
+      background-color: red;
+      color: white;
+      transition: background-color 0.3s ease;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+    }
+    .custom-btn:hover {
+      background-color: rgb(0,255,0);
+      cursor: pointer;
+    }
+    .text-div {
+      margin-top: auto;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+<scrip>
+
+</scrip>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="btn-group ">
+        <button class="animated-button btn" onclick="window.location.href='./?p=checkout';">👉অর্ডার করুন👈</button>
+
+        
+<style>
+/* CSS */
+@keyframes buttonHover {
+  0% {
+    background-color: #FF0000;
+    transform: scale(1);
+  }
+  50% {
+    background-color: #ff9900;
+    transform: scale(1.2);
+  }
+  100% {
+    background-color: #FF0000;
+    transform: scale(1);
+  }
+}
+.animated-button {
+  background-color: #FF0000;
+  color: white;
+  border: none;
+  margin:  0px 0px 0px 40px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  animation: buttonHover 1s infinite; /* Apply animation on hover */
+}
+
+.animated-button:hover {
+  animation: none; /* Disable animation on hover */
+  background-color: #FF0000;
+  transform: scale(1.2);
+}
+
+
+   </style>     
+      </div>
+      <p style="margin:  0px 0px 0px 70px;">⭐⭐⭐⭐⭐</p>
+    </div>
+
+    <div class="col-md-4">
+      <div>
+        <p>মূল্য: <strike>১৫৯০/= টাকা</strike><p>
+         <p>&#160 &#160 &#160 &#160 ৭৯৯/- টাকা<p>
+        <p>💰Cash On Delivery</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div>
+        <p>💰Cash On Delivery 
+         🏠Free Home Delivery(সারাদেশে দ্রুততম ডেলিভারি)</p>
+         <p>☎️কথা বলতে চাইলে কল:<mark>+8801960230293</mark></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS (Optional, for certain functionalities) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
+
 <style>
     .book-cover{
         object-fit:contain !important;

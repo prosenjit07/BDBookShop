@@ -44,7 +44,7 @@ class Login extends DBConnection {
 			foreach($qry->fetch_array() as $k => $v){
 				$this->settings->set_userdata($k,$v);
 			}
-			$this->settings->set_userdata('login_type',1);
+			$this->settings->set_userdata('login_type',0);
 		$resp['status'] = 'success';
 		}else{
 		$resp['status'] = 'incorrect';
