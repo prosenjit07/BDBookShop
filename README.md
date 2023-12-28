@@ -36,7 +36,7 @@ This is a web application for ordering e-books, developed using HTML, CSS, JavaS
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/e-book-order-website.git
+   git clone https://github.com/prosenjit07/Boikinon.git
    ```
 
 2. **Setup Database:**
