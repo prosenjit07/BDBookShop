@@ -78,4 +78,23 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-- Special thanks to [Bootstrap](https://getbootstrap.com/) 
+We would like to express our gratitude to the following individuals and projects that contributed to the development of this Website:
+
+- **[Bootstrap](https://getbootstrap.com/):** For providing a sleek and responsive front-end framework that significantly enhances the user interface.
+
+- **[Node.js](https://nodejs.org/):** The server-side JavaScript runtime that powered the backend of our application.
+
+- **[PHP](https://www.php.net/):** For its role in handling server-side logic and interacting with the MySQL database.
+
+- **[MySQL](https://www.mysql.com/):** The open-source relational database management system that stored and managed our data efficiently.
+
+- **[Font Awesome](https://fontawesome.com/):** For the wide range of free icons that added visual appeal to our website.
+
+- **[Unsplash](https://unsplash.com/):** For providing high-quality and royalty-free images that we used for book covers.
+
+- **[GitHub](https://github.com/):** For hosting our version control repository and enabling collaborative development.
+
+Special thanks to our contributors who actively participated in the project and provided valuable feedback, making this project better with their insights.
+
+We appreciate the open-source community and the wealth of knowledge shared by developers worldwide. Thank you for your inspiration and support!
+
