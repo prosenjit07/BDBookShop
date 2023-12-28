@@ -2,6 +2,14 @@
 ![image](https://github.com/prosenjit07/Boikinon/assets/98583038/e2f77d73-846f-47ce-8536-087ff471aef2)
 ![image](https://github.com/prosenjit07/Boikinon/assets/98583038/4d259137-ce3a-4758-9d47-ce3528595d62)
 
+# Sign Up
+![image](https://github.com/prosenjit07/Boikinon/assets/98583038/97e94805-9d5b-4ae2-a672-8f5900b2de8f)
+
+# Book Overview
+![image](https://github.com/prosenjit07/Boikinon/assets/98583038/6c059d77-4dc1-4eb9-a445-e7653485412a)
+
+# Checkout
+![image](https://github.com/prosenjit07/Boikinon/assets/98583038/9654e26a-d934-40a7-8dca-0ef6939c643f)
 
 
 # BDBookShop-A BookOrdering Web Application
