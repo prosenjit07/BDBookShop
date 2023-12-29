@@ -41,7 +41,7 @@ CREATE TABLE `cart` (
 --
 
 INSERT INTO `cart` (`id`, `client_id`, `inventory_id`, `price`, `quantity`, `date_created`) VALUES
-(4, 1, 1, 2500, 1, '2021-07-16 13:48:00');
+(4, 1, 1, 2500, 1, '2023-12-16 13:48:00');
 
 -- --------------------------------------------------------
 
@@ -112,11 +112,11 @@ CREATE TABLE `inventory` (
 --
 
 INSERT INTO `inventory` (`id`, `product_id`, `quantity`, `price`, `date_created`, `date_updated`) VALUES
-(1, 1, 50, 2500, '2021-07-16 10:02:39', NULL),
-(2, 2, 20, 3500, '2021-07-16 10:09:08', NULL),
-(3, 3, 10, 2500, '2021-07-16 12:05:54', NULL),
-(4, 4, 50, 1999.99, '2021-07-16 13:12:10', NULL);
-
+(1, 1, 50, 799, '2023-07-16 10:02:39', NULL),
+(2, 2, 20, 799, '2023-07-16 10:09:08', NULL),
+(3, 3, 10, 799, '2023-07-16 12:05:54', NULL),
+(4, 4, 50, 799, '2023-07-16 13:12:10', NULL);
+ 
 -- --------------------------------------------------------
 
 --
@@ -164,9 +164,9 @@ CREATE TABLE `order_list` (
 --
 
 INSERT INTO `order_list` (`id`, `order_id`, `product_id`, `quantity`, `price`, `total`) VALUES
-(1, 1, 2, 1, 3500, 3500),
-(2, 1, 1, 2, 2500, 5000),
-(3, 4, 3, 2, 2500, 5000);
+(1, 1, 2, 1, 799, 799),
+(2, 1, 1, 1, 799, 799),
+(3, 4, 3, 1, 799, 799);
 
 -- --------------------------------------------------------
 
@@ -236,13 +236,13 @@ CREATE TABLE `sub_categories` (
 --
 
 INSERT INTO `sub_categories` (`id`, `parent_id`, `sub_category`, `description`, `status`, `date_created`) VALUES
-(1, 1, 'Programming', '&lt;p&gt;Sample Sub Category&lt;/p&gt;', 1, '2021-07-16 09:10:44'),
-(2, 1, 'Grammar', '&lt;p&gt;Sample Sub 102&lt;/p&gt;', 1, '2021-07-16 09:11:05'),
-(3, 2, 'Literary', '&lt;p&gt;Sample Sub 103&lt;/p&gt;', 1, '2021-07-16 09:11:36'),
-(4, 2, 'Historical', '&lt;p&gt;Sample 104&lt;/p&gt;', 1, '2021-07-16 09:12:51'),
-(5, 3, 'Fantasy', '&lt;p&gt;Sample Sub 105&lt;/p&gt;', 1, '2021-07-16 09:13:28'),
-(6, 3, 'Action and Adventure', '&lt;p&gt;Sample Sub 106&lt;/p&gt;', 1, '2021-07-16 09:13:49'),
-(7, 4, 'Sub Cat 101', '&lt;p&gt;Sample Sub 107&lt;/p&gt;', 1, '2021-07-16 11:34:22');
+(1, 1, 'Programming', '&lt;p&gt;Sample Sub Category&lt;/p&gt;', 1, '2023-12-16 09:10:44'),
+(2, 1, 'Grammar', '&lt;p&gt;Sample Sub 102&lt;/p&gt;', 1, '2023-12-16 09:11:05'),
+(3, 2, 'Literary', '&lt;p&gt;Sample Sub 103&lt;/p&gt;', 1, '2023-12-16 09:11:36'),
+(4, 2, 'Historical', '&lt;p&gt;Sample 104&lt;/p&gt;', 1, '2023-12-16 09:12:51'),
+(5, 3, 'Fantasy', '&lt;p&gt;Sample Sub 105&lt;/p&gt;', 1, '2023-12-16 09:13:28'),
+(6, 3, 'Action and Adventure', '&lt;p&gt;Sample Sub 106&lt;/p&gt;', 1, '2023-12-16 09:13:49'),
+(7, 4, 'Sub Cat 101', '&lt;p&gt;Sample Sub 107&lt;/p&gt;', 1, '2023-12-16 11:34:22');
 
 -- --------------------------------------------------------
 
@@ -261,8 +261,8 @@ CREATE TABLE `system_info` (
 --
 
 INSERT INTO `system_info` (`id`, `meta_field`, `meta_value`) VALUES
-(1, 'name', 'Online Book Shop'),
-(6, 'short_name', 'Books'),
+(1, 'name', 'BDBookShop'),
+(6, 'short_name', ''),
 (11, 'logo', 'uploads/1626397500_book_logo.jpg'),
 (13, 'user_avatar', 'uploads/user_avatar.jpg'),
 (14, 'cover', 'uploads/1626397620_books.jpg');

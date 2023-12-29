@@ -73,15 +73,15 @@
 
       </div>
       <div class="col-md-4">
-        <h1>📆মাত্র দুই</h1>
-        <h1>সপ্তাহে দার </h1>
-        <h1>&#160  &#160 করান</h1>
-        <h1>💪🏻স্থায়ী বড়</h1>
-        <h1>ব্যবসা📈👑</h1>
+        <h1>📆&#160মাত্র দুই</h1>
+        <h1>সপ্তাহে   দার </h1>
+        <h1>&#160  &#160  &#160 করান</h1>
+        <h1 style="color: black;"><mark style="background-color: yellow;">💪🏻স্থায়ী &#160বড়</mark></h1>
+        <h1 style="color: black;"><mark style="background-color: #ffc0cb;">ব্যবসা📈👑</mark></h1>
       </div>
 
       <div class="col-md-4">
-        <h2>📢বইয়ের প্যাকেজটিতে ফ্রি পাচ্ছেনঃ</h2>
+      <h2 style="color: black;"><mark style="background-color: #add8e6;">📢বইয়ের প্যাকেজটিতে ফ্রি পাচ্ছেনঃ</mark></h2>
         <h3>📝14 দিনের চেকলিস্ট</h3>
         <h3>🎓বিখ্যাত ১৬ টি কোর্সের </h3>
         <h3>Free Drive Link!</h3>
@@ -129,9 +129,8 @@
   <div class="row">
     <div class="col-md-4">
       <div class="btn-group ">
-        <button class="animated-button btn" onclick="window.location.href='./?p=checkout';">👉অর্ডার করুন👈</button>
-
-        
+        <button class="animated-button btn" onclick="window.location.href='order.php';">👉অর্ডার করুন👈</button>
+        <!-- <button class="animated-button btn" onclick="window.location.href='./?p=checkout';">👉অর্ডার করুন👈</button> -->
 <style>
 /* CSS */
 @keyframes buttonHover {
@@ -173,8 +172,8 @@
 
     <div class="col-md-4">
       <div>
-        <p>মূল্য: <strike>১৫৯০/= টাকা</strike><p>
-         <p>&#160 &#160 &#160 &#160 ৭৯৯/- টাকা<p>
+      <p><span style="color: black;">মূল্য: </span><span style="color: red;"> <strike>৳১৫৯০/= টাকা</strike></span></p>
+         <p style="color: green;">&#160 &#160 &#160 &#160 ৳৭৯৯/= টাকা<p>
         <p>💰Cash On Delivery</p>
       </div>
     </div>
@@ -183,7 +182,7 @@
       <div>
         <p>💰Cash On Delivery 
          🏠Free Home Delivery(সারাদেশে দ্রুততম ডেলিভারি)</p>
-         <p>☎️কথা বলতে চাইলে কল:<mark>+8801960230293</mark></p>
+         <p><span style="color: black;">📞কথা বলতে চাইলে কল:</span><span style="color: black; background-color: orange;">+8801960230293</span></p>
       </div>
     </div>
   </div>

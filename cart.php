@@ -1,4 +1,5 @@
 <!-- use redirect to checkout, not go to card -->
+<!-- head portion code -->
 <head>
 <script type="text/javascript">
     var thecookie = readCookie('doRedirect');
@@ -14,6 +15,7 @@
     }
 </script>
 </head>
+
 <section class="py-5">
     <div class="container">
         <div class="row">

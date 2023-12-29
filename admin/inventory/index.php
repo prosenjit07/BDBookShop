@@ -41,7 +41,7 @@
 						foreach($row as $k=> $v){
 							$row[$k] = trim(stripslashes($v));
 						}
-					?>
+					?> 
 						<tr>
 							<td class="text-center"><?php echo $i++; ?></td>
 							<td>

@@ -2,14 +2,14 @@
             <div class="container-fluid px-4 px-lg-5 ">
                 <button class="navbar-toggler btn btn-sm" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <a class="navbar-brand" href="./">
-                <img src="<?php echo validate_image($_settings->info('logo')) ?>" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                <img src="<?php echo validate_image($_settings->info('logo')) ?>" width="70" height="30" class="d-inline-block align-top" alt="" loading="lazy">
                 <?php echo $_settings->info('short_name') ?>
                 </a>
 
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="./">হোম</a></li>
                         <?php 
                         $cat_qry = $conn->query("SELECT * FROM categories where status = 1  limit 3");
                         $count_cats =$conn->query("SELECT * FROM categories where status = 1 ")->num_rows;
@@ -33,7 +33,7 @@
                         <?php if($count_cats > 3): ?>
                         <li class="nav-item"><a class="nav-link" href="./?p=view_categories">All Categories</a></li>
                         <?php endif; ?>
-                        <li class="nav-item"><a class="nav-link" href="./?p=about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./?p=about">আমাদের সম্পর্কে</a></li>
                     </ul>
                     
                     <form class="form-inline" id="search-form">
