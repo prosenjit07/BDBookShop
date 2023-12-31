@@ -89,6 +89,47 @@
         <h3>⚡Ad Post + Video </h3>
       </div>
 
+
+      <div class="waviy">
+        <style>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+          </style>
+   <span style="--i:1">F</span>
+   <span style="--i:2">r</span>
+   <span style="--i:3">e</span>
+   <span style="--i:4">e</span>
+   <span style="--i:5">D</span>
+   <span style="--i:6">r</span>
+   <span style="--i:7">i</span>
+   <span style="--i:8">v</span>
+   <span style="--i:9">e</span>
+   <span style="--i:10">L</span>
+   <span style="--i:11">i</span>
+   <span style="--i:12">n</span>
+   <span style="--i:13">k</span>
+  </div>
+
     </div>
   </div>
 
@@ -187,6 +228,110 @@
     </div>
   </div>
 </div>
+<br>
+<div>
+     <center> <h2 style="color: black;"><mark style="background-color: #add8e6;">✋ Success Feedbacks 😇</mark></h2></center>
+</div>
+<br>
+<style>
+    .customer-photo {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #ccc; /* Placeholder color */
+      margin-right: 15px;
+    }
+
+    .customer-name {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .customer-address {
+      margin: 5px 0 0;
+      font-size: 14px;
+      color: #555;
+    }
+     
+  .feedback-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(100% - 10px); Adjust width for 3 cards in a row with margin
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  }
+
+    .feedback-text p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="feedback-card">
+          <div class="customer-info">
+          <div class="customer-photo">
+              <img class="customer-photo"src="images/prosenjit.jpg" alt="Customer Photo">
+           </div>
+            <div class="customer-details">
+              <h3 class="customer-name">Tushar Khan  ⭐⭐⭐⭐⭐</h3>
+              <p class="customer-address">Mirpur, Dhaka, Bangladesh</p>
+            </div>
+          </div>
+          <div class="feedback-text">
+            <p>
+            আমার বয়স ২১, আমি ১২ বছর বয়স থেকে রেগুলার পর্ণ দেখতাম আর হস্তমৈথুন করতাম, এক পর্যায়ে যত উত্তেজক পর্ণই দেখি আগের মত উত্তেজিত হচ্ছিলামনা, সাথে আমার পুরুষাঙ্গের সেন্সিটিভিটিও কমে যাচ্ছিল, এটার সাইজও যেন আগের থেকে কম আর নেতিয়ে পড়া মনে হচ্ছিল, বইটি দেখামাত্র কিনে নেই, এন্ড বিশ্বাস করুন ! প্রথম সপ্তাহ থেকেই পুরুষাঙ্গ আর অণ্ডকোষ অনেক বেশি ভারী আর সেন্সিটিভ হয়ে যায়, টেস্ট করার জন্য মনে আছে আমি ১১ দিনের মাথায় পর্ণ সাইটে যাই, একটা পর্ণের থাম্বনেইল দেখেই আমার পুরুষাঙ্গ ১২ বছর বয়সের মত পূর্ণাঙ্গ খাড়া হয়ে যায়, ২৮ দিন শেষ হতে আমার আর ২ দিন বাকি, অনেক অনেক অনেক কৃতজ্ঞ আমি।
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="feedback-card">
+          <div class="customer-info">
+          <div class="customer-photo">
+              <img class="customer-photo"src="images/prosenjit.jpg" alt="Customer Photo">
+           </div>
+            <div class="customer-details">
+              <h3 class="customer-name">John Doe ⭐⭐⭐⭐</h3>
+              <p class="customer-address">Khulna, Bangladesh</p>
+            </div>
+          </div>
+          <div class="feedback-text">
+            <p>
+            Amar age 26, amr ek friend er kach theke boitar shomporke jante pari... First e mone hoyechilo je try kore dekha jak ki hoy, erpor jokhon try korlam, ami nijeo obak, ami onek onek kritoggo and amar girlfriend o result dekhe obak 28 diner mathay. Amar birjo ager theke onek bere geche, amar ondokosh always vari and vorat thake, ekbar penis khara hole shohoje namte chaena... Daily dine ontoto 13-14 bar khara hoye jae, and raate ghumanor shomoy pray puro time e khara thake kather moto shokto hoye, shokal belay amar washroom e giye wait korte hoy oita neme jawar etoi shokto thake, erpor shokaler kaaj shuru korte pari.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="feedback-card">
+        <div class="customer-info">
+          <div class="customer-photo">
+          <img class="customer-photo"src="images/prosenjit.jpg" alt="Customer Photo">
+           </div>
+            <div class="customer-details">
+              <h3 class="customer-name">Mr.x ⭐⭐⭐⭐⭐</h3>
+              <p class="customer-address">Sadar, Chittagong, Bangladesh</p>
+            </div>
+          </div>
+          <div class="feedback-text">
+            <p>
+            হ্যালো আমার বয়স ৩৫, বিবাহিত, আমার কয়েকটা সমস্যা ছিল, মাঝে মাঝে তাড়াতাড়ি বীর্যপাত হত, আবার মাঝেমাঝে অনেক চেষ্টা করলেও কিছু হতনা, পুরুষাঙ্গ মরার মত হয়ে থাকত, পুরুষাঙ্গ একদিকে বেকে ছিল, আগা মোটা গোড়া চিকনও ছিল, সাথে অণ্ডকোষ অনেক হালকা ছিল, সকালে মাঝে মাঝে হালকা শক্ত হত তাও পুরো না, সাইজও অনেকটাই ছোট হয়ে গেছিল, পর্ণ দেখলেও খাড়া হয়না, পুরুষাঙ্গ টাচ না করলে খালি চিন্তা দিয়ে খাড়া হতনা, এক ফ্রেন্ডের কাছে শুনে আমি ২৮ দিনের চ্যালেঞ্জটা নিয়ে নিই, প্রতিটা টাস্ক পাই টু পাই ফলো করি সাথে ডায়েট প্ল্যানে বলা খাবারগুলোও খাই, স্পষ্ট খেয়াল আছে ১৭ দিনের মাথায় সন্ধ্যায় বউয়ের হাসি দেখেই পুরো খাড়া হয়ে গেছিল, দেখে বউ লজ্জ্বা পেয়ে গেছিল, আমি অনেক বেশি খুশি।
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- Bootstrap JS (Optional, for certain functionalities) -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
