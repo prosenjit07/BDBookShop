@@ -25,7 +25,7 @@
         <div class="container2">
         <div class="black-box">
         <img src="images/artofcontest.jpg" class="img-fluid" alt="Book Image">
-        </div>
+      </div>
     
   <div class="green-box">
   <img src="images/qr.png" class="zoom-in-out-box" alt="qr" />
@@ -82,57 +82,29 @@
 
       <div class="col-md-4">
       <h2 style="color: black;"><mark style="background-color: #add8e6;">📢বইয়ের প্যাকেজটিতে ফ্রি পাচ্ছেনঃ</mark></h2>
+      
         <h3>📝14 দিনের চেকলিস্ট</h3>
         <h3>🎓বিখ্যাত ১৬ টি কোর্সের </h3>
-        <h3>Free Drive Link!</h3>
+        <h3 class="shake-animation">Free Drive Link!</h3>
         <h3>🚀Idea Bank</h3>
-        <h3>⚡Ad Post + Video </h3>
+        <h3 class="shake-animation">⚡Ad Post + Video</h3>
+<style>
+    .shake-animation {
+      animation: shake 0.5s ease-in-out infinite;
+    }
+
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-5px); }
+      50% { transform: translateX(5px); }
+      75% { transform: translateX(-5px); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+
       </div>
-
-
-      <div class="waviy">
-        <style>
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-.waviy {
-  position: relative;
-}
-.waviy span {
-  position: relative;
-  display: inline-block;
-  font-size: 40px;
-  color: #fff;
-  text-transform: uppercase;
-  animation: flip 2s infinite;
-  animation-delay: calc(.2s * var(--i))
-}
-@keyframes flip {
-  0%,80% {
-    transform: rotateY(360deg) 
-  }
-}
-          </style>
-   <span style="--i:1">F</span>
-   <span style="--i:2">r</span>
-   <span style="--i:3">e</span>
-   <span style="--i:4">e</span>
-   <span style="--i:5">D</span>
-   <span style="--i:6">r</span>
-   <span style="--i:7">i</span>
-   <span style="--i:8">v</span>
-   <span style="--i:9">e</span>
-   <span style="--i:10">L</span>
-   <span style="--i:11">i</span>
-   <span style="--i:12">n</span>
-   <span style="--i:13">k</span>
   </div>
-
-    </div>
-  </div>
-
+</div>
 <head>
 
   <meta charset="UTF-8">
@@ -228,6 +200,7 @@
     </div>
   </div>
 </div>
+
 <br>
 <div>
      <center> <h2 style="color: black;"><mark style="background-color: #add8e6;">✋ Success Feedbacks 😇</mark></h2></center>
