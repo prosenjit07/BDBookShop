@@ -4,8 +4,8 @@ if (!isset($_SESSION['userdata'])) {
     echo '<script>
             var message = "দয়া করে প্রথমে লগ ইন করুন!";
             alert(message);
-          </script>';
-          redirect('index.php');
+            </script>';
+            redirect('index.php');
 }
 $total = 0;
     $qry = $conn->query("SELECT c.*,p.title,i.price,p.id as pid from `cart` c inner join `inventory` i on i.id=c.inventory_id inner join products p on p.id = i.product_id where c.client_id = ".$_settings->userdata('id'));
