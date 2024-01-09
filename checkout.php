@@ -1,5 +1,6 @@
 <script src="https://www.paypalobjects.com/api/checkout.js"></script>
 <?php 
+<<<<<<< HEAD
 if (!isset($_SESSION['userdata'])) {
     echo '<script>
             var message = "দয়া করে প্রথমে লগ ইন করুন!";
@@ -8,10 +9,20 @@ if (!isset($_SESSION['userdata'])) {
             redirect('index.php');
 }
 $total = 0;
+=======
+// if (!isset($_SESSION['userdata'])) {
+//     echo '<script>
+//             var message = "দয়া করে প্রথমে লগ ইন করুন!";
+//             alert(message);
+//             </script>';
+//             redirect('index.php');
+// }
+// $total = 799 ;
+>>>>>>> 40876d7db4c29141046e574359865fd30ce65ff5
     $qry = $conn->query("SELECT c.*,p.title,i.price,p.id as pid from `cart` c inner join `inventory` i on i.id=c.inventory_id inner join products p on p.id = i.product_id where c.client_id = ".$_settings->userdata('id'));
-    while($row= $qry->fetch_assoc()):
-        $total += $row['price'] * $row['quantity'];
-    endwhile;
+    // while($row= $qry->fetch_assoc()):
+    //     $total += $row['price'] * $row['quantity'];
+    // endwhile;
 ?>
 <section class="py-5">
     <div class="container">
@@ -19,31 +30,43 @@ $total = 0;
             <div class="card-body"></div>
             <h3 class="text-center"><b>চেক আউট</b></h3>
             <hr class="border-dark">
-            <form action="" id="place_order">
-                <input type="hidden" name="amount" value="<?php echo $total ?>">
+            <form action="" id="place_order" onclick="payment_online()">
+                <!-- <input type="hidden" name="amount" value="<?php echo $total ?>"> -->
+                <input type="hidden" name="amount" value="1">
                 <input type="hidden" name="payment_method" value="cod">
                 <input type="hidden" name="paid" value="0">
                 <div class="row row-col-1 justify-content-center">
                     <div class="col-6">
                     <div class="form-group col mb-0">
-                    <label for="" class="control-label">আডার টাইপ</label>
+                    <!-- <label for="" class="control-label">আডার টাইপ</label> -->
                     </div>
-                    <div class="form-group d-flex pl-2">
-                        <div class="custom-control custom-radio">
+                   <!-- <div class="form-group d-flex pl-2">
+                         <div class="custom-control custom-radio">
                           <input class="custom-control-input custom-control-input-primary" type="radio" id="customRadio4" name="order_type" value="2" checked="">
                           <label for="customRadio4" class="custom-control-label">ডেলিভারি </label>
                         </div>
                         <div class="custom-control custom-radio ml-3">
                           <input class="custom-control-input custom-control-input-primary custom-control-input-outline" type="radio" id="customRadio5" name="order_type" value="1">
                           <label for="customRadio5" class="custom-control-label">পিক আপ</label>
+                        </div> 
+                      </div> -->
+
+                      
+                        <!-- <div class="form-group col address-holder">
+                            <label for="" class="control-label">Name</label>
+                            <textarea id="" cols="30" rows="3" name="delivery_address" class="form-control" style="resize:none"></textarea>
                         </div>
-                      </div>
+                        <div class="form-group col address-holder">
+                            <label for="" class="control-label">Number</label>
+                            <textarea id="" cols="30" rows="3" name="delivery_address" class="form-control" style="resize:none"></textarea>
+                        </div> -->
                         <div class="form-group col address-holder">
                             <label for="" class="control-label">ডেলিভারি ঠিকানা</label>
                             <textarea id="" cols="30" rows="3" name="delivery_address" class="form-control" style="resize:none"><?php echo $_settings->userdata('default_delivery_address') ?></textarea>
                         </div>
                         <div class="col">
-                            <span><h4><b>সর্বমোট:</b> <?php echo number_format($total) ?></h4></span>
+                            <span><h4><b>সর্বমোট:</b> 799</h4></span>
+                            <!-- <span><h4><b>সর্বমোট:</b> <?php echo number_format($total) ?></h4></span> -->
                         </div>
                         <hr>
                         <div class="col my-3">
