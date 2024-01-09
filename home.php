@@ -245,7 +245,70 @@
     </div>
 
     <br>
-   
+    <style>
+            .text-color {
+                color: #ff0000;
+                /* red color*/
+            }
+
+            .highlighted-background {
+                background-color: #ffff00;
+                /* Yellow background color */
+            }
+
+            .white-light-text {
+                background-color: #FFFFFF;
+            }
+
+            .Misty-Rose {
+                background-color: #ffe4e1;
+            }
+
+            .LightSeaGreen {
+                background-color: #20b2aa;
+            }
+
+            .coral {
+                background-color: #f08080;
+            }
+
+            .levendra {
+                background-color: #e6e6fa;
+            }
+
+            .puff {
+                background-color: #ffdab9;
+            }
+
+            .cornsilk {
+                background-color: #fff8dc;
+            }
+
+            .litegray {
+                background-color: #778899;
+            }
+
+            .purple {
+                background-color: #800080;
+            }
+
+            .pink {
+                background-color: #DA70D6;
+                /* pink */
+            }
+
+            .parple-dark {
+                background-color: #301934;
+            }
+
+            .plum {
+                background-color: #673147;
+            }
+
+            .lite-pink {
+                background-color: #ffc0cb;
+            }
+        </style>
                 <div>
                     <center>
                         <h2 style="color: black;"><mark style="background-color: #add8e6;">✋ Success Feedbacks 😇</mark>
