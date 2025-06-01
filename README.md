@@ -39,7 +39,6 @@ This is a web application for ordering e-books, developed using HTML, CSS, JavaS
   - JavaScript
   - Bootstrap
 - **Backend:**
-  - Node.js
   - PHP
   - MySQL Database
 
