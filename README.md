@@ -46,14 +46,14 @@ This is a web application for ordering e-books, developed using HTML, CSS, JavaS
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/prosenjit07/Boikinon.git
+   git clone https://github.com/prosenjit07/BDBookShop
    ```
 
 2. **Setup Database:**
    - Import the `database.sql` file into your MySQL database.
 
 3. **Project Setup:**
-s
+
 - mysql -u root -e "CREATE DATABASE IF NOT EXISTS 
 bdbookshop;"
 - mysql -u root bdbookshop < database/book_shop_db.sql
