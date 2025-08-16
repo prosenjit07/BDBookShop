@@ -67,6 +67,12 @@ php -S localhost:8000
 Username: admin@admin.com
 Password: admin123
 
+- For database connection
+host/ip: 127.0.0.1
+port: 3306
+username: root
+password: 
+database: bdbookshop
 
 
 ## Usage
