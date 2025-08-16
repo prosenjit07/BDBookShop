@@ -52,20 +52,22 @@ This is a web application for ordering e-books, developed using HTML, CSS, JavaS
 2. **Setup Database:**
    - Import the `database.sql` file into your MySQL database.
 
-3. **Backend Setup:**
-   - Navigate to the `backend` folder.
-   - Install dependencies:
-     ```bash
-     npm install
-     ```
-   - Start the Node.js server:
-     ```bash
-     npm start
-     ```
+3. **Project Setup:**
+s
+- mysql -u root -e "CREATE DATABASE IF NOT EXISTS 
+bdbookshop;"
+- mysql -u root bdbookshop < database/book_shop_db.sql
+- verify if the database was imported successfully:
+mysql -u root -e "SHOW TABLES FROM bdbookshop;"
+- start the PHP server:
+php -S localhost:8000
+- visit: http://localhost:8080 
 
-4. **Frontend Setup:**
-   - Open the `frontend` folder.
-   - Launch the website by opening `index.html` in a browser.
+- for admin
+Username: admin@admin.com
+Password: admin123
+
+
 
 ## Usage
 
