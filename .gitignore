@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Environment/Secrets
+.env
+.env.*
+
+# Dependencies
+node_modules/
+vendor/
+
+# Caches and coverage
+.phpunit.result.cache
+coverage/
+.cache/
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+composer.lock
